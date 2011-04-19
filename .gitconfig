@@ -20,8 +20,8 @@
        resolve = !git-resolve
        wtf = !git-wtf
 [user]
-	name = Tim Su
-	email = tim@todoroo.com
+	name = Jon Paris
+	email = jon@todoroo.com
 [color]
     ui = auto
 	diff = auto
@@ -35,4 +35,6 @@
 [push]
 	default = matching
 [diff]
-	external = git-xxdiff
+	external = ~/tools/opendiff-git.sh
+	EDITOR = mate
+
