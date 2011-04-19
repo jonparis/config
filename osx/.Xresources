@@ -1,0 +1,6 @@
+emacs*.deleteIsDEL: true
+urxvt*.deleteIsDEL: true
+urxvt*.ttyModes: erase ^?
+xterm*.deleteIsDEL: true
+xterm*.ttyModes: erase ^?
+
