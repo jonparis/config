@@ -1,1 +1,6 @@
 Astrid's helpful configuration files 
+
+Rename the gitconfig and save it to ~/.gitconfig 
+Make sure you update the username email
+
+Copy opendiff-git.sh file to ~/tools/opendiff-git.sh to use filemerge for osx for your diff tool!

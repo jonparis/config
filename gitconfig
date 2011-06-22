@@ -1,0 +1,37 @@
+	[alias]
+	       lc = log ORIG_HEAD.. --stat --no-merges
+	       cp = cherry-pick
+	       ci = commit
+	       st = status
+	       co = checkout
+	       rb = rebase
+	       rba = rebase --abort
+	       rbc = rebase --continue
+	       log = log --decorate
+	       lol = log --graph --decorate --pretty=oneline --abbrev-commit
+	       lola = log --all  --graph --decorate --pretty=oneline --abbrev-commit
+	       svnci = svn dcommit
+	       svnup = svn fetch
+	       svnst = log trunk..
+	       br = !sh -c 'git branch --color $* | grep -v " z-"' -
+	       diffn = diff --no-ext-diff
+	       resolve = !git-resolve
+	       wtf = !git-wtf
+	[user]
+		name = Jon Paris
+		email = jon@todoroo.com
+	[color]
+	    ui = auto
+		diff = auto
+		status = auto
+		branch = auto
+	[merge]
+		tool = xxdiff
+	[core]
+		whitespace = -trailing-space    
+		autocrlf = input
+	[push]
+		default = matching
+	[diff]
+	external = ~/tools/opendiff-git.sh
+		EDITOR = mate
