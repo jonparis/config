@@ -18,8 +18,8 @@
 	       resolve = !git-resolve
 	       wtf = !git-wtf
 	[user]
-		name = Jon Paris
-		email = jon@todoroo.com
+		name = YOUR NAME
+		email = YOUREMAIL_WITHGITHUB@YOURDOMAIN.COM
 	[color]
 	    ui = auto
 		diff = auto
